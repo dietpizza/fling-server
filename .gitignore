@@ -1,5 +1,9 @@
 node_modules
 dist
 *.log
+*.js
 .idea
 .tmp/
+file
+*.db
+.vscode

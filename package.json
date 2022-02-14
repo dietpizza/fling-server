@@ -3,14 +3,26 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node index.ts"
+  },
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "express": "^4.17.2",
     "fluent-ffmpeg": "^2.1.2",
-    "klaw": "^4.0.1"
+    "klaw": "^4.0.1",
+    "sequelize": "^6.16.1",
+    "sqlite3": "^5.0.2"
   },
   "devDependencies": {
     "@types/fluent-ffmpeg": "^2.1.20",
-    "@types/klaw": "^3.0.3"
+    "@types/klaw": "^3.0.3",
+    "@types/lokijs": "^1.5.7",
+    "@types/node": "^17.0.18",
+    "@types/sequelize": "^4.28.11",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
   }
 }
